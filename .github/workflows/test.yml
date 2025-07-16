@@ -75,8 +75,8 @@ jobs:
        with:
          push: true
          tags: |
-           kaw393939/601_module8:latest
-           kaw393939/601_module8:${{ github.sha }}
+           jmk199999/assignment8:latest
+           jmk199999/assignment8:${{ github.sha }}
          platforms: linux/amd64,linux/arm64
-         cache-from: type=registry,ref=kaw393939/601_module8:cache
+         cache-from: type=registry,ref=jmk199999/assignment8:cache
          cache-to: type=inline,mode=max
